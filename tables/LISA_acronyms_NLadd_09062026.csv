@@ -1,0 +1,12 @@
+﻿Acronym,Translation,Description
+FEP,Front-End Processor,
+IDT,Initial Data Treatment,
+SPID OGSE,Single Pass Illumination and Detection Optical Ground Support Equipment,
+SPID,Single Pass Illumination and Detection,
+STA,Star Tracker Assembly,
+FSS,Fine Sun Sensor,
+TPS,Transfer Propulsion System,
+DAP,Drag-free attitude constrol propulsion,
+NECR,Near Earth Commissioning Review,
+SDPC,Signal Data Processing Chain,"Part of the Optical Metrology System (OMS). Contains the Phasemeter, Interferometric Processing Unit (IPU) and Quadrant Photo Receivers (QPR)"
+OMC,Opto-mechanical Chain,Part of the Optical Metrology System (OMS). Contains the Optical Bench and its hosted units. 
