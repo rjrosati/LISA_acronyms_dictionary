@@ -355,8 +355,8 @@ FS,Flight Spare,A flight spare is a copy of a spacecraft or spacecraft part whic
 FSM,Finite State Machine,
 FSS,Fine Sun Sensor,
 FSU,Fibre Switching Unit,
-FSUA,Fiber Switch Unit Actuator,"[IDS doc] Each OB has two Fibre-Switch-Units (FSUs), one to provide the means to switch between the prime and redundant OB feed fibres (coming from the laser system) and one to switch between the prime and redundant backlink fibre."
-FSUA,Fibre Switch Unit Actuator,
+FSUA,Fibre Switch Unit Actuator,"[IDS doc] Each OB has two Fibre-Switch-Units (FSUs), one to provide
+ the means to switch between the prime and redundant OB feed fibres (coming from the laser system) and one to switch between the prime and redundant backlink fibre."
 FSUS,Fine Steering Unit Sensor,
 FTE,Full-Time Equivalent,
 FUMO,Functional Model,
@@ -377,13 +377,10 @@ GRACE,Gravity Recovery and Climate Experiment,
 GRACE-FO,GRACE Follow-On,
 GRB,Gamma-Ray Burst,
 GRS,Gravitational Reference (Sub)system,
-GRS,Gravitational Reference Subsystem,
 GRS-FEE,Gravitational Reference (Sub)system Front End Electronics,GRS-FEE=GRS-SAU + GRS-PCU
-GRS-FEE,Gravitational Reference Subsystem Front End Electronics,
 GRS-HSU,Gravitational Reference Subsystem Harness Splitter Unit,
 GRS-TME,Gravitational Reference (Sub)system Test Mass Emulator,A Ground Support Equipment (GSE) for emulating the Test Mass (TM) in order to test the Front End Electronics (FEE) of the Gravitational Reference (Sub)system (GRS)
 GRSH,Gravitational Reference (Sub)system Head,
-GRSH,Gravitational Reference Subsystem Head,
 GS,Ground Segment,
 GS,Ground Station,
 GSE,Ground Support Equipment,
@@ -423,7 +420,6 @@ HV-HPC,High Voltage-High Power Command,
 HW,Hardware,
 I&T,Integration and Test(ing),
 I/F,interface,
-"I/F, IF",Interface,
 IA,Instrument Amplifier,
 IAAS,Infrastructure As A Service,
 IAU,International Astronomical Union,
@@ -436,11 +432,9 @@ ICSO,Innermost Stable Circular Orbit,
 IDA,Initial Displacement Angle,
 IDL,Interferometer Data Log,
 IDM,Information Documentation Management,
-IDS,Interferometric Detection (Sub)system,"Contains the Optical Bench, Phasemeter and Optical Bench Mechanism Control Unit (MCU)."
-IDS,Interferometric Detection Subsystem,
+IDS,Interferometric Detection (Sub)system,"Contains the Optical Bench, Phasemeter and Optical Bench Mechanism Control Unit (MCU). This acronym is now deprecated."
 IDT,Initial Data Treatment,
 IEEC,Institut d'Estudis Espacials de Catalunya,
-IEEC,Institut d’Estudis Espacials de Catalunya,
 IF,Interface,
 IFO,InterFerOmeter,
 IFP,In-Field Pointing,
@@ -819,7 +813,7 @@ PSM,Power Supply Module,A module contained within the Phasemeter Control Unit (P
 PSR,Pulsar,
 PT,Phase Transition,
 PT,Pilot Tone,The pilot tone (e.g. a 75/37.5 MHz sinusoidal tone) is added to beatnote signals within the Phasemeters (PMSs) analog front end. Its purpose is to measure sampling aperture jitters within the ADCs which are later used to correct these jitters. [Timing architecture TN]
-PT,platinum,The pilot tone (e.g. a 75 MHz sinusoidal tone) is added to beatnote signals within the phasemeter analog front end. Its purpose is to measure sampling aperture jitters within the ADCs which are later used to correct these jitters. [Timing architecture TN]
+PT,platinum, The element
 PTA,Pulsar Timing Array,
 PTF,Palomar Transient Factory,
 PTR,Post Test Review,
@@ -856,8 +850,7 @@ RE,Radiated Emission,
 REF,Reference,
 REF,Reference Interferometer,
 RF,Radio Frequency,
-RFA,Request for Approval,Used to approve materials and processes
-RFA,Request for Frequency Assignment,Used to approve materials and processes
+RFA,Request for Approval,Used to approve materials and processes but can also be for Action or Application
 RFD,Request for Deviation,
 RFDN,Radio Frequency Distribution Network,
 RFI,Reference Interferometer,
@@ -866,6 +859,7 @@ RFP,Request for Proposal,
 RFQ,Request for Quotation,
 RFT,Reduced Functional Test,
 RFW,Request for Waiver,
+RFX, Request for X, "Stands for any of the requests like RFW, RFD, etc"
 RGMM,Reduced Geometrical Mathematical Model,
 RH,Reference Hole,
 RH,Relative Humidity,
@@ -880,8 +874,7 @@ RMS,Root Mean Square,
 ROB,Read Out Box,
 ROM,Read Only Memory,
 ROM,Rough Order of Magnitude,
-RPE,"Relative Pointing Error (= jitter, = pointing stability)",
-RPE,"Relative Pointing/Performance Error (= jitter, = pointing stability)","Control Performance ECSS says Relative Performance Error, but knowing this is specifically about pointing performance� // the angular separation between the instantaneous pointing direction and the short-time (*) average pointing direction during a given time period. (*) discussion on this delta-t d"
+RPE,"Relative Pointing/Performance Error (= jitter, = pointing stability)","Control Performance ECSS says Relative Performance Error, but knowing this is specifically about pointing performance the angular separation between the instantaneous pointing direction and the short-time (*) average pointing direction during a given time period. (*) discussion on this delta-t d"
 RS,Radiated Susceptibility,
 RS,Requirement Specification,
 RSS,Root Sum Square,
